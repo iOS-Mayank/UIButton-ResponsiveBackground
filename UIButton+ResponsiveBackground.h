@@ -10,6 +10,6 @@
 
 @interface UIButton (ResponsiveBackground)
 
-- (void)setNormalBackground:(UIColor*)highlightedBackground highlightedBackground:(UIColor*)normalBackground;
+- (void)setNormalBackground:(UIColor*)normalBackground highlightedBackground:(UIColor*)highlightedBackground;
 
 @end

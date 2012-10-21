@@ -44,7 +44,7 @@ static char const * const HighlightedBackgroundKey = "HighlightedBackground";
     self.backgroundColor = self.normalBackground;
 }
 
-- (void)setNormalBackground:(UIColor*)highlightedBackground highlightedBackground:(UIColor*)normalBackground
+- (void)setNormalBackground:(UIColor*)normalBackground highlightedBackground:(UIColor*)highlightedBackground
 {
     [self setNormalBackground:normalBackground];
     self.backgroundColor = normalBackground;
